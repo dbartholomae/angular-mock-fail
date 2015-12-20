@@ -1,0 +1,20 @@
+{
+  "name": "AngularMockFailExample",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.*",
+    "angular-mocks": "*",
+    "karma": "*",
+    "karma-mocha": "*",
+    "karma-angular": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-chai-plugins": "*"
+  },
+  "directories": {
+    "lib": "app"
+  },
+  "scripts": {
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js"
+  }
+}
